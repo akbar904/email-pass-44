@@ -1,0 +1,20 @@
+name: com.example.flutter_cubit_app
+description: A simple Flutter application using the Cubit pattern for state management, featuring a login screen and a home screen with logout functionality.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  bloc_test: ^9.0.0
+  mocktail: ^0.2.0
+
+flutter:
+  uses-material-design: true
